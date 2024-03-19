@@ -60,4 +60,8 @@ let counter = 5;
 
 while (B = false || I == false || N == false || G == false  || O == false){
     newNumber(75);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 88cc85ed3426470a58e4584606335163ac60adb2
