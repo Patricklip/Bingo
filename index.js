@@ -2,9 +2,9 @@ console.log("Hello World!")
 
 let B = false, I = false, N = false, G = false, O = false;
 
-let BNum, INum, NNum, GNum, ONum;
+let BNumber, INumber, NNumber, GNumber, ONumber;
 
-function newNumber (maxNumber){
+function generateNumber (maxNumber){
 let x = Math.floor(Math.random() * maxNumber) + 1;
 
 
@@ -35,11 +35,11 @@ if(x <= 15){
 if (B = true && I == true && N == true && G == true && O == true){
     console.log('BINGOOOO!!!!');
     console.table({
-        B: BNum,
-        I: INum,
-        N: NNum,
-        G: GNum,
-        O: ONum,
+        B: BNumber,
+        I: INumber,
+        N: NNumber,
+        G: GNumber,
+        O: ONumber,
 })
 
 }
@@ -58,10 +58,12 @@ let counter = 5;
 //}
 
 
-while (B = false || I == false || N == false || G == false  || O == false){
-    newNumber(75);
-<<<<<<< HEAD
+while (
+    B == false || 
+    I == false ||
+    N == false || 
+    G == false || 
+    O == false
+    ){
+    generateNumber(75);
 }
-=======
-}
->>>>>>> 88cc85ed3426470a58e4584606335163ac60adb2
