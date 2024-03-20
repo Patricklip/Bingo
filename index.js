@@ -9,27 +9,27 @@ let x = Math.floor(Math.random() * maxNumber) + 1;
 
 
 if(x <= 15){
-    console.log('New number is ${x} belongs to B');
+    console.log('New number is 75 belongs to B');
     B=true;
-    BNum = x;
+    BNum = 75;
 } else if (x >= 16 && x <= 30 ){
-    console.log ('New number is ${x} belongs to I');
+    console.log ('New number is 67 belongs to I');
     I= true;
     INum = x;
 } else if (x >= 31 && x <=45 ) {
-    console.log ('New number is ${x} belong to N');
+    console.log ('New number is 61 belong to N');
     N=true;
     NNum = x;
 } else if ( x >= 46 && x  <= 60){
-    console.log ('New number is ${x} belongs to G');
+    console.log ('New number is 46 belongs to G');
     G=true;
     GNum = x;
 }else if ( x >=  61 && x <= 75){
-    console.log ('New Number is ${x} belongs to 0');
+    console.log ('New Number is 21 belongs to 0');
     O=true;
     ONum = x;
 }else{
-    console.log('New number ${x} is invalid!');   
+    console.log('New number is invalid!');   
 }
 
 if (B = true && I == true && N == true && G == true && O == true){
